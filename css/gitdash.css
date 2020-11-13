@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navigation{
+    background: rgb(54, 54, 54);
+    width: 100%;
+}
+.navigation>img{
+    z-index: 2;
+}
