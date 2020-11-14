@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../css/gitdash.css" rel="stylesheet"/>
+    <link href="../css/gitdash.css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
         <nav class="navigation">
-            <img width="50px" height="50px" src ="../assets/icons/git.svg" alt="git logo"/>
+            <section class="first-part">
+                <img width="52px" height="50px" src="../assets/icons/git.svg" alt="git logo" />
+                <div class="search">
+                    <input type="text" placeholder="Search or jump to..." />
+                    <img class="frontstroke" src="https://github.githubassets.com/images/search-key-slash.svg" alt=""
+                        class="mr-2 header-search-key-slash">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">Pull requests</a></li>
+                    <li><a href="#">Issues</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Explore</a></li>
+                </ul>
+            </section>
+            <section class="second-part">
+                <!-- <img width="52px" height="50px" src ="../assets/icons/bell.svg" alt="notifications"/> -->
+                <svg class="notifications-bell" viewBox="0 0 16 16" version="1.1" width="16" height="16"
+                    aria-hidden="true">
+                    <path
+                        fill="#ffffff" d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z">
+                    </path>
+                    <path fill-rule="evenodd" fill="#ffffff"
+                        d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z">
+                    </path>
+                </svg>
+                <div>
+                <span class="iconify" data-icon="octicon:plus-16" data-inline="false" style="color: #ffffff;"></span>
+                <span class="iconify" data-icon="octicon:triangle-down-24" data-inline="false" style="color: #ffffff;"></span>
+                </div>
+                <div class="avatar-dropdown">
+                    <img width="20px" height="20px" class="avatar" src="https://avatars0.githubusercontent.com/u/42584688?s=60&v=4" alt="avatar"/>
+                    <span class="iconify" data-icon="octicon:triangle-down-24" data-inline="false" style="color: #ffffff;"></span>
+                </div>
+            </section>
         </nav>
     </header>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
+
 </html>
